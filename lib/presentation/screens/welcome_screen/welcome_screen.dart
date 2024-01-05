@@ -36,6 +36,7 @@ class WelcomeScreen extends StatelessWidget {
 
                   viewModel.onChangeScreenStatus(context: context);
                 }, child: const Text("Start",style: TextStyle(fontSize: 20,fontWeight: FontWeight.w600),))),
+            const SizedBox(height: 14,),
 
 
           ],
